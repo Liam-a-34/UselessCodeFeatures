@@ -63,6 +63,8 @@
     display: flex;
     align-items: center;
     box-shadow: 0px 15px 40px #7E6D5766;
+    margin: 10px 0;
+    position: relative
     }
 
     .slider h5{
@@ -97,4 +99,73 @@
     }
     .slider input[type="range"]::-webkit-slider-thumb:hover {
     background: black;
+    }
+
+    .incriment{
+    width: 500px;
+    height: 60px;
+    padding: 30px;
+    padding-left: 40px;
+    background: #fcfcfc;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 15px 40px #7E6D5766;
+    margin: 10px 0;
+    font-size: 25px;
+    position: relative
+    }
+
+    .incriment h5{
+        position: absolute;
+        top:5px;
+    }
+
+    .incriment button{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .down-incriment{
+        margin: 0 15px;
+    }
+
+    .up-incriment{
+        margin: 0 15px
+    }
+
+    .runaway{
+        width: 500px;
+    height: 60px;
+    padding: 30px;
+    padding-left: 40px;
+    background: #fcfcfc;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 15px 40px #7E6D5766;
+    margin: 10px 0;
+    font-size: 25px;
+    position: relative
+    }
+
+    .runaway h5{
+        position: absolute;
+        top: 5px;
+        font-size: 25px
+    }
+
+    .runaway button{
+        width: 100px;
+        height: 35px;
+        position: relative;
+        left: 0;
+    }
+
+    .run-right{
+        left: 300px
+    }
+
+    .run-left{
+        right: 300px;
     }
